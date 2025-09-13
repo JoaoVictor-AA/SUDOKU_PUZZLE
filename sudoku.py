@@ -1,4 +1,5 @@
 import pygame
 from Sudoku import engine
 engine = engine.SudokuEngine()
-print(engine.tabuleiro)
+engine.definir_tabuleiro()
+engine.print()
